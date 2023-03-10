@@ -12,7 +12,7 @@ Criação do app mobile YaliPay apresentando pela comunidade openSource Angolana
 ## Instalação
 
 ```bash
-git clone https://github.com/Edson2001/yalipay/
+git clone https://github.com/Edson2001/yalipay.git
 ```
 
 - Instalar dependências
