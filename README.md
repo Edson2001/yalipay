@@ -1,18 +1,18 @@
 # yalipay
 Criação do app mobile YaliPay apresentando pela comunidade openSource Angolana.
 
-<img src="https://cdn.wallpapersafari.com/59/73/Oyd3C1.gif">
+<img src="https://github.com/Edson2001/yalipay/blob/main/images/print.png">
 
 ## Tecnologias
 2. React Native
 1. Expo (Expo Router)
 2. Tailwind
-3. NatiWind
+3. NativeWind
 
 ## Instalação
 
 ```bash
-git clone https://github.com/Edson2001/yalipay/
+git clone https://github.com/Edson2001/yalipay.git
 ```
 
 - Instalar dependências
