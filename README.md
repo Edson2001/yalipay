@@ -7,7 +7,7 @@ Criação do app mobile YaliPay apresentando pela comunidade openSource Angolana
 2. React Native
 1. Expo (Expo Router)
 2. Tailwind
-3. NatiWind
+3. NativeWind
 
 ## Instalação
 
