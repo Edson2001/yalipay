@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import Picture from "@Images/Ellipse.png"
-import Top from "@Images/Vector(1).png"
 import Down from "@Images/Vector(2).png"
 
 const Item: React.FC = () => {
