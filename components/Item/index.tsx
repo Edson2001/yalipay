@@ -7,7 +7,7 @@ import Down from "@Images/Vector(2).png"
 const Item: React.FC = () => {
   return (
 
-    <View className="bg-itemlist flex-row justify-between items-center p-3 rounded-[10px] mb-[12px]">
+    <View className="bg-itemlist flex-row justify-between items-center p-3 rounded-[10px] mb-[20px]">
        
         <View className="flex-row items-center">
           <Image source={Picture} className="h-[41px] w-[41px] rounded-full" />
