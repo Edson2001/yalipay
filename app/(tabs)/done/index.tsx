@@ -9,7 +9,7 @@ const done: React.FC = () => {
       <StatusBar  style="light"  />
       <SafeAreaView className="flex-col  h-screen">
         
-        <Text className="text-white font-bold text-[15px]  mb-[40px] mt-[20px]">YaliPay</Text>
+        <Text className="text-white font-bold text-[15px]  mb-[40px] mt-[40px]">YaliPay</Text>
         
         <View className="flex-col h-full items-center justify-center">
             <Image className="mb-[20px]" source={require("@Images/cloud.png")} />
