@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <SafeAreaView className="bg-background p-5">
       <StatusBar  style="light"  />
-      <Text className="text-white font-bold text-[24px] mt-10 mb-10">YaliPay</Text>
+      <Text className="text-white font-bold text-[15px] mt-10 mb-10">YaliPay</Text>
       <Card />
       <View className="flex-row mt-[45px]  mb-[25px]">
           <Text className="text-white font-bold text-[13px]  mr-[4px]">Movimentos </Text>
