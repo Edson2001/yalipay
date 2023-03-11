@@ -1,7 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, SafeAreaView, View, ScrollView, Image, TouchableOpacity, FlatList} from "react-native";
 
-//import {Feather} from "@expo/vector-icons"
 import Card from "@Components/Card"
 import Item from "@Components/Item";
 
