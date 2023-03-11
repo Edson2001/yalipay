@@ -1,5 +1,5 @@
 import React from "react"
-import {Feather} from "@expo/vector-icons"
+import {Feather, FontAwesome} from "@expo/vector-icons"
 import {Tabs} from "expo-router"
 
 
@@ -13,10 +13,14 @@ export default function Layout() {
       tabBarShowLabel: false
     }}>
       <Tabs.Screen name="home/index" options={{
-        tabBarIcon: ()=> (<Feather name="home" color={"#FFF"} size={20} />)
+        tabBarIcon: ()=> (<FontAwesome name="chevron-right" color={"#FFF"} size={20} />)
       }} />
       <Tabs.Screen name="send/index" options={{
-        tabBarIcon: ()=> (<Feather name="send" color={"#FFF"} size={20} />),
+        tabBarIcon: ()=> (<Feather name="activity" color={"#FFF"} size={20} />),
+        tabBarShowLabel: false
+      }}  /> 
+      <Tabs.Screen name="cards/index" options={{
+        tabBarIcon: ()=> (<Feather name="activity" color={"#FFF"} size={20} />),
         tabBarShowLabel: false
       }}  /> 
     </Tabs>
