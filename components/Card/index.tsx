@@ -5,14 +5,18 @@ import Visa from "@Images/Group1.png"
 import {Feather} from "@expo/vector-icons"
 import { StyledComponent } from 'nativewind';
 
-const Card: React.FC = () => {
+
+interface Props{
+    color?: string
+}
+
+const Card: React.FC<Props> = (props) => {
   return (
-    <StyledComponent className="relative bg-[#4F339A] rounded-[10px] w-full h-[180px] flex-col justify-between p-3" component={View} > 
-       
+    <StyledComponent className={`relative bg-[#4F339A] rounded-[10px] w-full h-[180px] flex-col justify-between p-3 mb-3 ${props.color ?? ""}`} component={View} > 
        
        <View>
             <View className="flex-row justify-between">
-                <Text className="text-white font-bold text-[25px] mb-[12px]">Saldo</Text>
+                <Text className="text-white font-bold text-[25px] mb-[12px]">Saldo  </Text>
                 <TouchableOpacity>
                     <Feather name="toggle-left" color={"#FFF"} size={40} />
                 </TouchableOpacity>
