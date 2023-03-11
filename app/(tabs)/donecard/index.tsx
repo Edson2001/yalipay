@@ -1,10 +1,24 @@
 import React from 'react';
-import { View } from 'react-native';
-
-// import { Container } from './styles';
+import { View, ScrollView, Text, TouchableOpacity, SafeAreaView, Image } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import ButtonLink from '@Components/ButtonLink';
 
 const donecard: React.FC = () => {
-  return <View />;
+  return (
+    <ScrollView className="bg-background p-7">
+      <StatusBar  style="light"  />
+      <SafeAreaView className="flex-col  h-screen">
+        
+        <Text className="text-white font-bold text-[15px]  mb-[40px] mt-[40px]">YaliPay</Text>
+        
+        <View className="flex-col h-full items-center justify-center">
+            <Image className="mb-[20px]" source={require("@Images/cloud.png")} />
+            <Text className="text-white w-[247px] text-center mb-[84px]">Seu cartão foi adicionado com sucesso</Text>
+            <ButtonLink classText="text-buttonColor" link='/home' text='Voltar ao Inicio' />
+        </View>
+      </SafeAreaView>
+    </ScrollView>
+  );
 }
 
 export default donecard;
