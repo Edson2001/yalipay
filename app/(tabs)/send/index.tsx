@@ -17,7 +17,7 @@ export default function Send() {
         </View>
 
         <View>
-          <ButtonLink link="/confirm" text="Transferir" classButton="mb-[12px]" />
+          <ButtonLink link="/confirm" text="Transferir" classButton="mb-[12px] bg-buttonColor" />
           <Text className="text-center text-white font-bold text-[13px]">Cancelar Operação</Text>
         </View>
       </SafeAreaView>
