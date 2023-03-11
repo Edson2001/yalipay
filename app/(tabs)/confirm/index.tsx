@@ -11,9 +11,9 @@ const confirm: React.FC = () => {
       <StatusBar  style="light"  />
       <SafeAreaView className="flex-col justify-around h-screen">
         <View>
-          <Text className="text-white font-bold text-[15px]  mb-10">YaliPay</Text>
-          <Text className="text-white font-bold text-[24px] mt-10 mb-[62px]">Validar Operação</Text>
-          <Text>
+          <Text className="text-white font-bold text-[15px]  mb-[40px]">YaliPay</Text>
+          <Text className="text-white font-bold text-[24px] mb-[30px]">Validar Operação</Text>
+          <Text className="text-white">
             Para validar a transferência, no valor de AOA 79,45, insira o código de confirmação que recebeu por SMS.
           </Text>
         </View>
