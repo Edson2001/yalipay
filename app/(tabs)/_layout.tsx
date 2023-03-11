@@ -30,6 +30,12 @@ export default function Layout() {
       <Tabs.Screen name="done/index" options={{
         href: null
       }}   /> 
+      <Tabs.Screen name="addcard/index" options={{
+        href: null
+      }}   />
+      <Tabs.Screen name="donecard/index" options={{
+        href: null
+      }}   /> 
     </Tabs>
   );
 }
