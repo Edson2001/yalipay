@@ -13,7 +13,7 @@ interface Props {
 const Button: React.FC<Props> = (props) => {
   return (
     <Pressable className={` w-[345px] h-[70px]  rounded-[10px] flex-row justify-center items-center  ${props.classButton}`}>
-        <Link href={`${props.link}`} className={`${props.classText} text-[13px] font-bold`}>{props.text}</Link> 
+      <Link href={`${props.link}`} className={`${props.classText} text-[13px] font-bold`}>{props.text}</Link> 
     </Pressable>
   );
 }
