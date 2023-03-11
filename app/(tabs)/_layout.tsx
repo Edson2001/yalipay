@@ -23,6 +23,13 @@ export default function Layout() {
         tabBarIcon: ()=> (<Feather name="activity" color={"#FFF"} size={20} />),
         tabBarShowLabel: false
       }}  /> 
+
+      <Tabs.Screen name="confirm/index" options={{
+        href: null
+      }}   /> 
+      <Tabs.Screen name="done/index" options={{
+        href: null
+      }}   /> 
     </Tabs>
   );
 }
