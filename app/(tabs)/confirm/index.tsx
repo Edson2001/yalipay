@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from "expo-status-bar";
-import { View, Text, ScrollView, SafeAreaView } from 'react-native';
+import { View, Text, ScrollView, SafeAreaView, TouchableOpacity } from 'react-native';
 import Input from "@Components/Input";
 import Button from "@Components/Button";
 // import { Container } from './styles';
@@ -18,10 +18,10 @@ const confirm: React.FC = () => {
           </Text>
         </View>
 
-        <View className="flex-row">
-            <Text>Não recebi o código de confirmação, </Text>
-            <Text className="text-buttonColor">Reenviar</Text>
-        </View>
+        <TouchableOpacity className="flex-row">
+            <Text className="text-white">Não recebi o código de confirmação, R</Text>
+            <Text className="text-buttonColor">eenviar</Text>
+        </TouchableOpacity>
 
         <View>
           <Button onClick={()=> {}} text="Confirmar" classButton="mb-[12px]" />
