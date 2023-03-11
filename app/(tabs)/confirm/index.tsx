@@ -1,9 +1,7 @@
 import React from 'react';
 import { StatusBar } from "expo-status-bar";
 import { View, Text, ScrollView, SafeAreaView, TouchableOpacity } from 'react-native';
-import Input from "@Components/Input";
-import Button from "@Components/Button";
-// import { Container } from './styles';
+import ButtonLink from "@Components/ButtonLink"
 
 const confirm: React.FC = () => {
   return (
@@ -24,7 +22,7 @@ const confirm: React.FC = () => {
         </TouchableOpacity>
 
         <View>
-          <Button onClick={()=> {}} text="Confirmar" classButton="mb-[12px]" />
+          <ButtonLink onClick={()=> {}} text="Confirmar" link='/done' classButton="mb-[12px] bg-buttonColor" />
           <Text className="text-center text-white font-bold text-[13px]">Cancelar Operação</Text>
         </View>
       </SafeAreaView>

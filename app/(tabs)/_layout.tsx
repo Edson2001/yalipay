@@ -27,6 +27,9 @@ export default function Layout() {
       <Tabs.Screen name="confirm/index" options={{
         href: null
       }}   /> 
+      <Tabs.Screen name="done/index" options={{
+        href: null
+      }}   /> 
     </Tabs>
   );
 }
