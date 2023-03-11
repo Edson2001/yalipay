@@ -1,7 +1,9 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, SafeAreaView, View, ScrollView, Image} from "react-native";
 import Input from "@Components/Input";
-import Button from "@Components/Button";
+
+import ButtonLink from '@Components/ButtonLink';
+
 export default function Send() {
   return (
     <ScrollView className="bg-background p-7">
@@ -15,7 +17,7 @@ export default function Send() {
         </View>
 
         <View>
-          <Button onClick={()=> {}} text="Transferir" classButton="mb-[12px]" />
+          <ButtonLink link="/confirm" text="Transferir" classButton="mb-[12px]" />
           <Text className="text-center text-white font-bold text-[13px]">Cancelar Operação</Text>
         </View>
       </SafeAreaView>
