@@ -10,15 +10,15 @@ const Item: React.FC = () => {
     <View className="bg-itemlist flex-row justify-between items-center p-3 rounded-[10px] mb-[12px]">
        
         <View className="flex-row items-center">
-            <Image source={Picture} />
-            <View>
-                <Text className="text-[#FFF] ml-4 text-bold">Edson Santos</Text>
-                <Text className="text-[#B6B6B6] ml-4 text-[10px]">Type</Text>
-            </View>
+          <Image source={Picture} className="h-[41px] w-[41px] rounded-full" />
+          <View>
+            <Text className="text-white ml-4 text-bold">Edson Santos</Text>
+            <Text className="text-[#B6B6B6] ml-4 text-[10px] font-medium">Transferência </Text>
+          </View>
         </View>
         <View className="flex-row items-center"> 
             <Image source={Down} className="mr-3" />
-            <Text className="text-[#FFF]">AOA 120.56</Text>
+            <Text className="text-white font-semibold">AOA 120.56</Text>
         </View>
     </View>
 
