@@ -3,6 +3,8 @@ import { StatusBar } from "expo-status-bar";
 import { View, Text, ScrollView, SafeAreaView, TouchableOpacity } from 'react-native';
 import {Feather} from "@expo/vector-icons"
 import Card from "@Components/Card"
+import ButtonLink from '@Components/ButtonLink';
+import { Link } from 'expo-router';
 
 const cards: React.FC = () => {
   return (
@@ -13,7 +15,9 @@ const cards: React.FC = () => {
           <Text className="text-white font-bold text-[15px]  mb-[40px] mt-[40px]">YaliPay</Text>
           <View className="flex-row items-center justify-between">
             <Text className="text-white font-bold text-[24px] mb-[30px]">Cartões</Text>
-            <Feather name="file-plus" size={20} color="#FFF" />
+            <Link href="/addcard" >
+              <Feather name="file-plus" size={20} color="#FFF" />
+            </Link>
           </View>
         </View>
 
