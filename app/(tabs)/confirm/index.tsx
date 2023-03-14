@@ -29,13 +29,13 @@ const confirm: React.FC = () => {
             <TextInput maxLength={1} className="border-b-2 border-white text-white font-bold text-[32px] text-center" />
             </View>
           </View>
-
+          <TouchableOpacity className="flex-row">
+              <Text className="text-white">Não recebi o código de confirmação, R</Text>
+              <Text className="text-buttonColor">eenviar</Text>
+          </TouchableOpacity>
         </View>
 
-        <TouchableOpacity className="flex-row">
-            <Text className="text-white">Não recebi o código de confirmação, R</Text>
-            <Text className="text-buttonColor">eenviar</Text>
-        </TouchableOpacity>
+        
 
         <View>
           <ButtonLink onClick={()=> {}} text="Confirmar" link='/done' classButton="mb-[12px] bg-buttonColor" />
