@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from "expo-status-bar";
-import { View, Text, ScrollView, SafeAreaView, TouchableOpacity } from 'react-native';
+import { View, Text, ScrollView, SafeAreaView, TouchableOpacity , TextInput} from 'react-native';
 import ButtonLink from "@Components/ButtonLink"
 
 const confirm: React.FC = () => {
@@ -11,9 +11,25 @@ const confirm: React.FC = () => {
         <View>
           <Text className="text-white font-bold text-[15px]  mb-[40px]">YaliPay</Text>
           <Text className="text-white font-bold text-[24px] mb-[30px]">Validar Operação</Text>
-          <Text className="text-white">
+          <Text className="text-white mb-[40px]">
             Para validar a transferência, no valor de AOA 79,45, insira o código de confirmação que recebeu por SMS.
           </Text>
+
+          <View className="flex-row justify-between">
+            <View className="w-[76px]">
+              <TextInput maxLength={1} className="border-b-2 border-white text-white font-bold text-[32px] text-center" />
+            </View>
+            <View className="w-[76px]">
+            <TextInput maxLength={1} className="border-b-2 border-white text-white font-bold text-[32px] text-center" />
+            </View>
+            <View className="w-[76px]">
+            <TextInput maxLength={1} className="border-b-2 border-white text-white font-bold text-[32px] text-center" />
+            </View>
+            <View className="w-[76px]">
+            <TextInput maxLength={1} className="border-b-2 border-white text-white font-bold text-[32px] text-center" />
+            </View>
+          </View>
+
         </View>
 
         <TouchableOpacity className="flex-row">
