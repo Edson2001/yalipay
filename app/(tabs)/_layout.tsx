@@ -1,7 +1,9 @@
 import React from "react"
 import {Feather, FontAwesome} from "@expo/vector-icons"
 import {Tabs} from "expo-router"
-
+import SVGImg from '@Images/home.svg';
+import IconSend from '@Images/send.svg';
+import IconCards from '@Images/folder.svg';
 
 export default function Layout() {
   return (
@@ -13,14 +15,14 @@ export default function Layout() {
       tabBarShowLabel: false
     }}>
       <Tabs.Screen name="home/index" options={{
-        tabBarIcon: ()=> (<FontAwesome name="chevron-right" color={"#FFF"} size={20} />)
+        tabBarIcon: ()=> ( <SVGImg width={20} height={21} />)
       }} />
       <Tabs.Screen name="send/index" options={{
-        tabBarIcon: ()=> (<Feather name="activity" color={"#FFF"} size={20} />),
+        tabBarIcon: ()=> (<IconSend width={20} height={21} />),
         tabBarShowLabel: false
       }}  /> 
       <Tabs.Screen name="cards/index" options={{
-        tabBarIcon: ()=> (<Feather name="activity" color={"#FFF"} size={20} />),
+        tabBarIcon: ()=> (<IconCards width={20} height={21} />),
         tabBarShowLabel: false
       }}  /> 
 
