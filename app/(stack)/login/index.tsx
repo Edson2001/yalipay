@@ -20,7 +20,7 @@ const login: React.FC = () => {
             <Input classInput="mb-[17px]" label="Senha" />
             
             <Pressable className="flex-row justify-end w-[350px] mb-[85px]">
-                <Text className="text-white font-medium text-[12px]">squeci minha senha.</Text>
+                <Text className="text-white font-medium text-[12px]">Esqueci minha senha.</Text>
                 <Text className="text-buttonColor font-medium text-[12px]">Recuperar</Text>
             </Pressable>
 

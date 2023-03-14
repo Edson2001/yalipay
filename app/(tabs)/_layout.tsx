@@ -11,6 +11,8 @@ export default function Layout() {
       headerShown: false,
       tabBarStyle:{
         backgroundColor: "#202020",
+        borderColor: "#202020",
+        borderTopColor: "#202020"
       },
       tabBarShowLabel: false
     }}>
