@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { Text, View, ScrollView, Pressable} from "react-native";
 import ButtonLink from "@Components/ButtonLink"
 
-import { Link } from "expo-router";
+import { Link } from 'expo-router';
 import Input from "@Components/Input";
 
 const login: React.FC = () => {
