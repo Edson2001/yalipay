@@ -6,9 +6,9 @@ import ButtonLink from '@Components/ButtonLink';
 export default function Send() {
   return (
     <Container>
-      <View className="flex-col  h-full items-center">
+      <View className={`flex-col  items-center h-full justify-around `}>
         <View className="w-full">
-          <Text className="text-white font-bold text-[24px]">Transferir</Text>
+          <Text className="text-white font-bold text-[24px]">Transferir </Text>
           <Input label="IBAN" classInput="w-full" />
           <Input label="Montante"  />
         </View>
