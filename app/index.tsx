@@ -13,10 +13,10 @@ export default function Page() {
      
       <View  className="w-full h-screen flex-col justify-center items-center" >
         <Text className="text-white font-bold text-4xl mb-7">YaliPay</Text>
-        <Text className="text-white font-medium text-sm ">Confiaça não tem preço</Text>
+        <Text className="text-white font-medium text-sm ">Confiança não tem preço</Text>
         <Text className="text-white font-medium text-sm mb-[142px]">Seu dinheiro está seguro aqui</Text>
 
-        <View className="flex-col">
+        <View className="flex-col  w-full">
           <ButtonLink classButton="bg-buttonColor mb-5" text="Já tenho uma conta" link="/login" />
           <ButtonLink classButton="border-2 border-buttonColor" classText="text-white" text="Me cadastrar" link="/signup" />
         </View>
