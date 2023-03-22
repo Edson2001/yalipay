@@ -16,7 +16,7 @@ const confirm: React.FC = () => {
           <Text className="text-white mb-[40px]">
             Para validar a transferência, no valor de AOA 79,45, insira o código de confirmação que recebeu por SMS.
           </Text>
-          
+
           <OPT />
           <TouchableOpacity className="flex-row">
             <Text className="text-white">Não recebi o código de confirmação, R</Text>

@@ -15,6 +15,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [],
     "ios": {
       "supportsTablet": true
     },
@@ -22,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.expofinance"
     },
     "web": {
       "favicon": "./assets/favicon.png",
