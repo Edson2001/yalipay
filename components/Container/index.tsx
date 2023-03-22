@@ -1,14 +1,19 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, SafeAreaView, Text } from 'react-native';
+import { StatusBar } from "expo-status-bar";
 
 interface Props{
-    children?: JSX.Element
+    children?: React.ReactComponentElement
 }
 const Container: React.FC<Props> = (props) => {
   return (
-    <View className='container'>
-        {props.children}
-    </View>
+    <SafeAreaView className="bg-background h-full">
+        <StatusBar  style="light"  />
+        <View className='container pt-10 pl-[19px] pr-[19px]'>
+            <Text className="text-white font-bold text-[15px] mb-[40px]">YaliPay</Text>
+            {props.children}
+        </View>
+    </SafeAreaView>
   );
 }
 
