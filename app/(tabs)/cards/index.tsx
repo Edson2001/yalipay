@@ -3,7 +3,7 @@ import { StatusBar } from "expo-status-bar";
 import { View, Text, ScrollView, SafeAreaView, TouchableOpacity } from 'react-native';
 import {Feather} from "@expo/vector-icons"
 import Card from "@Components/Card"
-import ButtonLink from '@Components/ButtonLink';
+
 import { Link } from 'expo-router';
 
 const cards: React.FC = () => {
