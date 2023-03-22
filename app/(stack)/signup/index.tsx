@@ -23,13 +23,13 @@ const signup: React.FC = () => {
             <Input classInput="mb-[85px]" label="Senha" />
             
             
-            <View className="flex-col">
-                <ButtonLink classButton="bg-buttonColor mb-5" text="Entrar" link="/login" />
+            <View className="flex-col w-full">
+              <ButtonLink classButton="bg-buttonColor mb-5" text="Entrar" link="/login" />
             </View>
 
             <Link href="/login" className="flex-row justify-end ">
-                <Text className="text-white font-medium text-[12px]">Já tenho conta </Text>
-                <Text className="text-buttonColor font-medium text-[12px]">Entrar</Text>
+              <Text className="text-white font-medium text-[12px]">Já tenho conta </Text>
+              <Text className="text-buttonColor font-medium text-[12px]">Entrar</Text>
             </Link>
         </View>
     
