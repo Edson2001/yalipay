@@ -12,7 +12,7 @@ interface Props {
 
 const Button: React.FC<Props> = (props) => {
   return (
-    <Pressable onPress={()=> props.onClick} className={` bg-buttonColor w-[345px] h-[70px]  rounded-[10px] flex-row justify-center items-center  ${props.classButton}`}>
+    <Pressable onPress={()=> props.onClick} className={` bg-buttonColor w-full h-[70px]  rounded-[10px] flex-row justify-center items-center  ${props.classButton}`}>
       <Text  className={`${props.classText} text-[13px] font-bold`}>{props.text}</Text> 
     </Pressable>
   );
