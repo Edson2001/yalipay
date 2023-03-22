@@ -19,7 +19,7 @@ const Button: React.FC<Props> = (props) => {
   }
 
   return (
-    <Pressable onPress={()=> navigate()} className={` w-[345px] h-[70px]  rounded-[10px]   ${props.classButton}  flex-col justify-center items-center`} href={`${props.link}`} >
+    <Pressable onPress={()=> navigate()} className={` w-full h-[70px]  rounded-[10px]   ${props.classButton}  flex-col justify-center items-center`} href={`${props.link}`} >
       <Text className={`${props.classText} text-[13px] font-bold`}>
         {props.text}
       </Text>
