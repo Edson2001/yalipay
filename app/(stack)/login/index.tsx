@@ -24,7 +24,7 @@ const login: React.FC = () => {
                 <Text className="text-buttonColor font-medium text-[12px]">Recuperar</Text>
             </Pressable>
 
-            <View className="flex-col">
+            <View className="flex-col w-full">
                 <ButtonLink classButton="bg-buttonColor mb-5" text="Entrar" link="/home" />
             </View>
             <Link href="/signup" className="flex-row justify-end ">
