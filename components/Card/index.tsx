@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Image, Text, TouchableOpacity } from 'react-native';
-
+import Options from "@Images/op.svg"
 import Visa from "@Images/Group1.png"
 import {Feather} from "@expo/vector-icons"
 import { StyledComponent } from 'nativewind';
@@ -18,7 +18,7 @@ const Card: React.FC<Props> = (props) => {
             <View className="flex-row justify-between">
                 <Text className="text-white font-bold text-[25px] mb-[12px]">Saldo  </Text>
                 <TouchableOpacity>
-                    <Feather name="toggle-left" color={"#FFF"} size={40} />
+                   <Options />
                 </TouchableOpacity>
             </View>
             <View className="flex-row">
