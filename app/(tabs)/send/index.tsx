@@ -13,7 +13,7 @@ export default function Send() {
           <Input label="Montante"  />
         </View>
         <View className="w-full">
-          <ButtonLink link="/confirm" text="Transferir" classButton="bg-buttonColor" />
+          <ButtonLink link="/confirm" text="Transferir" classButton="bg-buttonColor mb-[12px]" />
           <Text className="text-center text-white font-bold text-[13px]">Cancelar Operação</Text>
         </View>
       </View>
