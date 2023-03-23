@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Image, Text, TouchableOpacity } from 'react-native';
 import Options from "@Images/op.svg"
 import Visa from "@Images/Group1.png"
-import {Feather} from "@expo/vector-icons"
 import { StyledComponent } from 'nativewind';
 
 
