@@ -4,7 +4,6 @@ import Options from "@Images/op.svg"
 import Visa from "@Images/Group1.png"
 import { StyledComponent } from 'nativewind';
 
-
 interface Props{
     color?: string
 }
@@ -12,7 +11,6 @@ interface Props{
 const Card: React.FC<Props> = (props) => {
   return (
     <StyledComponent className={`relative bg-[#4F339A] rounded-[10px] w-full h-[180px] flex-col justify-between p-3 mb-3 ${props.color ?? ""}`} component={View} > 
-       
        <View>
             <View className="flex-row justify-between">
                 <Text className="text-white font-bold text-[25px] mb-[12px]">Saldo  </Text>
