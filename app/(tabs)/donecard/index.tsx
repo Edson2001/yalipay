@@ -1,6 +1,6 @@
 import React from 'react';
-import { View, ScrollView, Text, TouchableOpacity, SafeAreaView, Image } from 'react-native';
-import { StatusBar } from "expo-status-bar";
+import { View,  Text,  Image } from 'react-native';
+
 import ButtonLink from '@Components/ButtonLink';
 import Container from '@Components/Container';
 const donecard: React.FC = () => {
